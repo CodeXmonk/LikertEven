@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>D3.chart Likert (even-point) example</title>
+  <script src="d3.v3.min.js"></script>
+	<script src="d3.chart.min.js"></script>
+  <style>
+
+    
+  table{
+    border: none;
+    margin-left:auto; 
+    margin-right:auto;
+  }
+  td{text-align:center;}
+  td.wide{width:450px;}
+    
+  .LikertEven{display:block;font: 10px sans-serif; margin-left:auto;margin-right:auto;}
+  .LikertEven .tick line { stroke: #666; stroke-width: .5px; }
+  .LikertEven .percent.s0 { fill: #FD6753; }
+  .LikertEven .percent.s1 { fill: #FA8634; }
+  .LikertEven .percent.s2 { fill: #46FA7D; }
+  .LikertEven .percent.s3 { fill: #99E23F; }
+    
+  .LikertEven .subtitle.s { fill: #4D4B4B; }
+  .LikertEven .subtitle.s0 { font-weight:bold; fill: #FD6753; }
+  .LikertEven .subtitle.s1 { font-weight:bold; fill: #FA8634; }
+  .LikertEven .subtitle.s2 { font-weight:bold; fill: #99E23F; }
+  .LikertEven .subtitle.s3 { font-weight:bold; fill: #46FA7D; }
+      
+  .little{font-size:11px;}  
+  .middle{font-size:14px;}
+  .normal{font-size:16px;font-weight:bold;} 
+  .light {fill: #FCF4F4;}
+  .dark {fill: #E0DCDC;}
+  .background {}
+  .dimTextKiem{font: 11px sans-serif; font-weight:bold;}
+  .textResult{font: 8px sans-serif;}
+  .textResultKiem{font: 9px sans-serif; font-weight:bold;}
+  .axis text {font: 10px sans-serif;}
+  line.axis  {fill: none;stroke: #000;stroke-width: 1px;shape-rendering: crispEdges;}
+  line.noaxis  {fill: none;stroke: #fff;stroke-width: 1px;shape-rendering: crispEdges;}
+  
+</style>
+</head>
+<body>
+
+<table> 
+  <tr>
+    <td class="wide">
+      <div id="LikertEven"></div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <button id="Randomize">Randomize</button>
+      <button id="Reset">Reset</button>
+    </td>
+  </tr>
+</table>
+  
+	<script src="LikertEven-chart.js"></script>
+	<script src="LikertEvens-chart.js"></script>
+	<script src="LikertEven-app.js"></script>
+</body>
+</html>

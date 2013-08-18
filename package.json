@@ -1,0 +1,34 @@
+{
+  "name": "d3.chart.LikertEven",
+  
+  "description": "d3.chart.js answer to Ann Emery's Dataviz Challenge #5",
+
+  "version": "0.0.1",
+  
+  "author": "Hornyik József (@CodeXmonk)",
+  
+  "license": "MIT Expat",
+  
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  
+  "keywords": [
+    "d3.js",
+    "d3.chart.js",
+    "visualization",
+    "svg"
+  ],                                
+
+  "d3.chart": {
+    "version" : "0.1.2"
+  }
+  
+  "d3": {
+    "version" : "v3"
+  },
+
+  "devDependencies": {
+  }
+}
