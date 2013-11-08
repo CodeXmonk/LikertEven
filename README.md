@@ -1,6 +1,5 @@
 Another T score bulleT
-======================                                                This is an [example link](http://example.com/)
-
+======================
 a variant based on my BulleT that was based on mbostock's bullet with Miso's d3.chart.js
 ------------------------------------------------------------
 
